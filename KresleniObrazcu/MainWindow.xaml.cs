@@ -95,7 +95,7 @@ namespace KresleniObrazcu
 
             // Vykreslení obrazce
             obrazec.Vykresli(platno);
-
+            // testovaci radek
             // Uložení objektu do kolekce
             obrazce.Add(obrazec);
 
