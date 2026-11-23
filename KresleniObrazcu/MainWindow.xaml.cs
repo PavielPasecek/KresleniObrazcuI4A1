@@ -84,6 +84,9 @@ namespace KresleniObrazcu
                 case 2:
                     obrazec = new Trojuhelnik(x, y, tl, barvicka);
                     break;
+                case 3:
+                    obrazec = new Kruh(x, y, tl, barvicka);
+                    break;
 
                 default:
                     return;
@@ -98,7 +101,9 @@ namespace KresleniObrazcu
             lstObrazce.Items.Add(
                 $"{obrazec.GetType().Name} " +
                 $"X: {x:F0}, Y: {y:F0}, " +
-                $"čára: {obrazec.TloustkaCary}");
+                $"čára: {obrazec.TloustkaCary}" + 
+                $"Barva: {obrazec.Vypln.ToString()}"
+                );
         }
 
         private void BtnSmazat_Click(

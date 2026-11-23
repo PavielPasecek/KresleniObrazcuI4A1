@@ -39,6 +39,7 @@
                 <ComboBoxItem Content="Obdélník"/>
                 <ComboBoxItem Content="Elipsa"/>
                 <ComboBoxItem Content="Trojúhelník"/>
+                <ComboBoxItem Content="Kruh"/>
 
             </ComboBox>
 
