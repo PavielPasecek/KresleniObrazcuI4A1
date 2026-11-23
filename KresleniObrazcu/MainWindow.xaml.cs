@@ -15,7 +15,7 @@ namespace KresleniObrazcu
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainWindow : Window ///CHICHICHICHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
     {
         List<Obrazec> obrazce = new List<Obrazec>();
 
