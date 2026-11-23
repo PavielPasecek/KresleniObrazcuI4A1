@@ -25,5 +25,10 @@ namespace KresleniObrazcu.Tridy
 
             platno.Children.Add(obdelnik);
         }
+
+        public Obdelnik(double x, double y, double tl, Brush vypl) : base(x,y,tl,vypl)
+        {
+
+        }
     }
 }

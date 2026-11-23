@@ -25,5 +25,9 @@ namespace KresleniObrazcu.Tridy
 
             platno.Children.Add(elipsa);
         }
+        public Elipsa(double x, double y, double tl, Brush vypl) : base(x, y, tl, vypl)
+        {
+
+        }
     }
 }

@@ -15,5 +15,13 @@ namespace KresleniObrazcu.Tridy
         public Brush Vypln { get; set; }
 
         public abstract void Vykresli(Canvas platno);
+
+        public Obrazec(double x, double y, double tl, Brush vypl)
+        {
+            X = x;
+            Y = y;
+            TloustkaCary = tl;
+            Vypln = vypl;
+        }
     }
 }
