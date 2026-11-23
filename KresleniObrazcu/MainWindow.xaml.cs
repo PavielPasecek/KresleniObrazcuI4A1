@@ -92,6 +92,7 @@ namespace KresleniObrazcu
                     return;
             }
             // Vykreslení obrazce
+            obrazec.NastavSirku(150,100);
             obrazec.Vykresli(platno);
             // testovaci radek
             // Uložení objektu do kolekce

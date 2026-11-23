@@ -10,6 +10,8 @@ namespace KresleniObrazcu.Tridy
     {
         public double X { get; set; }
         public double Y { get; set; }
+        public double Width { get; set; }
+        public double Height { get; set; }
 
         public double TloustkaCary { get; set; }
         public Brush Vypln { get; set; }
@@ -22,6 +24,11 @@ namespace KresleniObrazcu.Tridy
             Y = y;
             TloustkaCary = tl;
             Vypln = vypl;
+        }
+        public void NastavSirku(double w, double h)
+        {
+            Width = w; 
+            Height = h;
         }
     }
 }

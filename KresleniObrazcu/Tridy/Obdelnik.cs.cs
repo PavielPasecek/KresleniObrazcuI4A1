@@ -13,8 +13,8 @@ namespace KresleniObrazcu.Tridy
         {
             Rectangle obdelnik = new Rectangle();
 
-            obdelnik.Width = 100;
-            obdelnik.Height = 80;
+            obdelnik.Width = Width;
+            obdelnik.Height = Height;
 
             obdelnik.Stroke = Brushes.Black;
             obdelnik.StrokeThickness = TloustkaCary;

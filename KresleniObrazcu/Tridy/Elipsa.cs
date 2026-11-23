@@ -13,8 +13,8 @@ namespace KresleniObrazcu.Tridy
         {
             Ellipse elipsa = new Ellipse();
 
-            elipsa.Width = 100;
-            elipsa.Height = 80;
+            elipsa.Width = Width;
+            elipsa.Height = Height;
 
             elipsa.Stroke = Brushes.Black;
             elipsa.StrokeThickness = TloustkaCary;
